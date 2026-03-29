@@ -1,0 +1,35 @@
+{
+  "name": "greeting-plugin",
+  "version": "1.0.0",
+  "description": "A customizable greeting plugin that demonstrates user-configurable settings",
+  "author": {
+    "name": "adrianR84"
+  },
+  "homepage": "https://github.com/example/greeting-plugin",
+  "repository": "https://github.com/example/greeting-plugin",
+  "license": "MIT",
+  "keywords": ["greeting", "example", "user-config"],
+  "userConfig": {
+    "userName": {
+      "type": "string",
+      "title": "Your name",
+      "description": "Your name for personalized greetings. Accepts: (string)",
+      "sensitive": false,
+      "default": "Friend"
+    },
+    "greetingStyle": {
+      "type": "string",
+      "title": "Greeting style",
+      "description": "Choose your preferred greeting style: formal, friendly, casual, enthusiastic. Accepts: (string)",
+      "sensitive": false,
+      "default": "friendly"
+    },
+    "includeTime": {
+      "type": "boolean",
+      "title": "Include time",
+      "description": "Include the current time in greetings. Accepts: true, false (boolean)",
+      "sensitive": false,
+      "default": true
+    }
+  }
+}
