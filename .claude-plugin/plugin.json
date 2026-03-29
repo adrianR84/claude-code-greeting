@@ -5,8 +5,8 @@
   "author": {
     "name": "adrianR84"
   },
-  "homepage": "https://github.com/example/greeting-plugin",
-  "repository": "https://github.com/example/greeting-plugin",
+  "homepage": "https://github.com/adrianR84/claude-code-greeting",
+  "repository": "https://github.com/adrianR84/claude-code-greeting",
   "license": "MIT",
   "keywords": ["greeting", "example", "user-config"],
   "userConfig": {

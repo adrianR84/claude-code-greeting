@@ -12,31 +12,40 @@ A customizable greeting plugin for Claude Code with user-configurable settings.
 
 ### Option 1: Local Installation (Testing)
 
-1. Add the local marketplace:
+1. Clone the repository:
 
-   ```
-   /plugin marketplace add ./greeting-plugin
-   ```
-
-2. Install the plugin:
-
-   ```
-   /plugin install greeting-plugin@example-plugins
+   ```bash
+   git clone https://github.com/adrianR84/claude-code-greeting.git
+   cd claude-code-greeting
    ```
 
-3. Configure your preferences when prompted
+2. Add the local marketplace:
+
+   ```
+   /plugin marketplace add .
+   ```
+
+3. Install the plugin:
+
+   ```
+   /plugin install greeting-plugin@claude-code-greeting
+   ```
+
+4. Configure your preferences when prompted
 
 ### Option 2: From a GitHub Repository
 
 ```bash
-/plugin marketplace add owner/repo
-/plugin install greeting-plugin@marketplace-name
+/plugin marketplace add adrianR84/claude-code-greeting
+/plugin install greeting-plugin@claude-code-greeting
 ```
 
 ### Option 3: Session-Only (No Install)
 
 ```bash
-claude --plugin-dir ./greeting-plugin
+git clone https://github.com/adrianR84/claude-code-greeting.git
+cd claude-code-greeting
+claude --plugin-dir .
 ```
 
 ## Usage

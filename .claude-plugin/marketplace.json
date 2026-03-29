@@ -1,11 +1,11 @@
 {
-  "name": "example-plugins",
+  "name": "claude-code-greeting",
   "owner": {
     "name": "adrianR84",
     "email": "developer@example.com"
   },
   "metadata": {
-    "description": "Example plugins demonstrating Claude Code plugin development"
+    "description": "A marketplace for greeting plugin"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
       "author": {
         "name": "adrianR84"
       },
-      "homepage": "https://github.com/example/greeting-plugin",
-      "repository": "https://github.com/example/greeting-plugin",
+      "homepage": "https://github.com/adrianR84/claude-code-greeting",
+      "repository": "https://github.com/adrianR84/claude-code-greeting",
       "license": "MIT",
       "keywords": ["greeting", "example", "user-config", "demo"]
     }
