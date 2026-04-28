@@ -1,6 +1,6 @@
 {
   "name": "greeting-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable greeting plugin that demonstrates user-configurable settings",
   "author": {
     "name": "adrianR84"
