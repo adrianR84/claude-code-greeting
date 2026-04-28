@@ -19,7 +19,8 @@
       "homepage": "https://github.com/adrianR84/claude-code-greeting",
       "repository": "https://github.com/adrianR84/claude-code-greeting",
       "license": "MIT",
-      "keywords": ["greeting", "example", "user-config", "demo"]
+      "keywords": ["greeting", "example", "user-config", "demo"],
+	  "version": "1.0.1"
     }
   ]
 }
